@@ -16,3 +16,9 @@
 **Output:** Stage name, story ID, input artifact, and `ready` or `blocked` status.
 
 **Recovery:** A blocked pre-step leaves `docs/pipeline-state.json` unchanged and records the missing or invalid prerequisite in the run result.
+
+**Flow:** 
+KAN-4 exists?
+Previous stage approved?
+pipeline-state.json exists?
+If no → Stop.

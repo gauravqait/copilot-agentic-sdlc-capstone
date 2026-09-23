@@ -15,3 +15,9 @@
 **Output:** Decision status and the exact next action.
 
 **Recovery:** Rejected or blocked stages retain the last approved state and require a new approved artifact; they do not append a successful history entry.
+
+**Flow:** 
+Requirements generated.
+Approve?
+Reject?
+If Rejectd -> Don't move to Architecture Agent.
