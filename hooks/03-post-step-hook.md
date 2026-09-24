@@ -16,6 +16,6 @@
 **Recovery:** If state persistence fails, leave the previous state and approval gate intact for retry.
 
 **Flow:**
-Update pipeline-state.json
+Update docs/<story-id>/pipeline-state.json
 Record current stage
 Enable next agent

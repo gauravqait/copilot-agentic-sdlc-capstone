@@ -1,48 +1,48 @@
 {
-  "storyId": "KAN-4",
+  "storyId": "KAN-5",
   "currentStage": "08",
   "status": "complete",
-  "artifact": "docs/KAN-4/08-pr-summary.md",
+  "artifact": "docs/KAN-5/08-pr-summary.md",
   "history": [
     {
       "stage": "01",
       "status": "approved",
-      "artifact": "docs/KAN-4/01-requirements.md"
+      "artifact": "docs/KAN-5/01-requirements.md"
     },
     {
       "stage": "02",
       "status": "approved",
-      "artifact": "docs/KAN-4/02-architecture.md"
+      "artifact": "docs/KAN-5/02-architecture.md"
     },
     {
       "stage": "03",
       "status": "approved",
-      "artifact": "docs/KAN-4/03-design-review.md"
+      "artifact": "docs/KAN-5/03-design-review.md"
     },
     {
       "stage": "04",
       "status": "approved",
-      "artifact": "docs/KAN-4/04-impl-plan.md"
+      "artifact": "docs/KAN-5/04-impl-plan.md"
     },
     {
       "stage": "05",
       "status": "approved",
-      "artifact": "docs/KAN-4/05-implementation-summary.md"
+      "artifact": "docs/KAN-5/05-implementation-summary.md"
     },
     {
       "stage": "06",
       "status": "approved",
-      "artifact": "docs/KAN-4/06-code-review.md"
+      "artifact": "docs/KAN-5/06-code-review.md"
     },
     {
       "stage": "07",
       "status": "approved",
-      "artifact": "docs/KAN-4/07-verification-report.md"
+      "artifact": "docs/KAN-5/07-verification-report.md"
     },
     {
       "stage": "08",
       "status": "complete",
-      "artifact": "docs/KAN-4/08-pr-summary.md"
+      "artifact": "docs/KAN-5/08-pr-summary.md"
     }
   ]
 }

@@ -13,4 +13,4 @@
 - **Status:** approved
 - **Approver:** Verification Agent
 - **Rationale:** Approved inputs, required artifacts, ordered cumulative history, implementation evidence, and code-review findings were verified; no release-readiness blocker was identified for handoff.
-- **Evidence:** `docs/KAN-4/01-requirements.md` through `docs/KAN-4/07-verification-report.md`; `docs/pipeline-state.json`; `tests/validate-kan4.ps1`.
+- **Evidence:** `docs/KAN-4/01-requirements.md` through `docs/KAN-4/07-verification-report.md`; `docs/KAN-4/pipeline-state.json`; `tests/validate-kan4.ps1`.

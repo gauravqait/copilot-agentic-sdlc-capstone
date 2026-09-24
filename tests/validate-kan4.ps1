@@ -3,7 +3,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-$statePath = Join-Path $RepositoryRoot 'docs/pipeline-state.json'
+$statePath = Join-Path $RepositoryRoot 'docs/KAN-4/pipeline-state.json'
 
 if (-not (Test-Path $statePath)) { throw "Missing pipeline state: $statePath" }
 
