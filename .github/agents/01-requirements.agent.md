@@ -4,17 +4,17 @@ description: "Use for Agentic SDLC requirements analysis: read a Jira story thro
 tools: [read, search, edit, agent, atlassian/*]
 user-invocable: true
 ---
-# Purpose
-Turn one Jira story into an approved, implementation-ready requirements document.
 # Context
-Use Atlassian MCP as the source of truth; write to `docs/<story-id>/01-requirements.md` and preserve the issue key.
+Use Atlassian MCP to retrieve the Jira story and write `docs/<story-id>/01-requirements.md`.
 # Role
-Formalize scope, constraints, dependencies, assumptions, requirements, acceptance criteria, risks, and open questions without designing or implementing.
+Turn the Jira story into an approved requirements artifact.
+# Execution
+Validate required Jira fields and prepare the requirements artifact.
 # Action
-Retrieve and verify required Jira fields; block on failed or incomplete retrieval, never invent requirements, create and validate the artifact, and record the explicit decision with approver, rationale, evidence, and timestamp.
+Retrieve and verify story metadata, block on missing data, create the requirements artifact, and record the approval decision.
+# Skill
+Use `skills/01-jira-retrieval-skill.md` to retrieve Jira story data before generating requirements.
 # Tools
-Use `atlassian/*`, `read`, `search`, and `edit`; use `agent` only for the approved handoff and do not modify unrelated files.
+Use Atlassian MCP, read/search/edit, and approved handoff tools.
 # Expected Output
-Return stage/status, story and required Jira fields, artifact path, decision details, evidence, validation results, and open questions.
-# Next Agent
-After explicit approval, hand off the artifact and decision summary to the Architecture Agent; report `blocked` if unavailable.
+Requirements artifact, approval status, evidence, and open questions.
