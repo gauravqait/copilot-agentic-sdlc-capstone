@@ -4,17 +4,15 @@ description: "Plan implementation from an approved design review."
 tools: [read, search, edit, agent]
 user-invocable: true
 ---
-# Purpose
-Turn approved design findings into an executable implementation plan.
 # Context
-Read `docs/<story-id>/03-design-review.md`; consult requirements and architecture; write `docs/<story-id>/04-impl-plan.md`.
+Read `docs/<story-id>/03-design-review.md`; write `docs/<story-id>/04-impl-plan.md`.
 # Role
-Define ordered tasks, dependencies, affected areas, validation, rollback, risks, and traceability.
+Convert approved design findings into an implementation plan.
+# Execution
+Validate approval and sequence execution work.
 # Action
-Verify approval and no blockers, inspect relevant files, create and validate the plan, and record its decision.
+Define the work plan, dependencies, and validation strategy, then record the approval decision.
 # Tools
-Use `read`, `search`, and `edit`; use `agent` only for the approved handoff.
+Use read/search/edit and approved handoff tools.
 # Expected Output
-Return stage/status, input, artifact, ordered tasks, dependencies, validation strategy, risks, and approval.
-# Next Agent
-After explicit approval, hand off `04-impl-plan.md` to the Implementation Agent; block if approval or agent availability is missing.
+Implementation plan artifact, ordered tasks, validation strategy, and approval status.

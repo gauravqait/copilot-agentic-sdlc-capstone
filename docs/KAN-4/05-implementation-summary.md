@@ -13,5 +13,5 @@ Implemented the approved KAN-4 workflow controls: ordered stage/predecessor gate
 - **Status:** approved
 - **Approver:** Implementation Agent
 - **Rationale:** The approved implementation plan was executed within the existing workflow/configuration surface, and focused validation passed.
-- **Evidence:** `tests/validate-kan4.ps1`; `docs/pipeline-state.json`
+- **Evidence:** `tests/validate-kan4.ps1`; `docs/KAN-4/pipeline-state.json`
 - **Next:** Hand off `docs/KAN-4/05-implementation-summary.md` to the Code Review Agent.
